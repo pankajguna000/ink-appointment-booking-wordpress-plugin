@@ -1,0 +1,32 @@
+<?php
+define('NOT_AVI', 'Not Available');
+define('APT_TEXT', '<b>Note:</b> After creating your desired services, specify the available Date Slot and Time Slot for your services.');
+define('TIMESLOT_HEAD', 'Set Time Slot for');
+define('TIMESLOT_TEXT', 'Add all the Timings for the  Available days i.e. when your services would be available or active.');
+define('DATESLOT_HEAD', 'Set Date Slot for');
+define('DATESLOT_TEXT', '<b>Note:</b> Set the Opening Date and Closing Date of the service. After that decide the working days of the service. <b>For e.g.</b> If you are running a Spa in summers, then you can choose the Opening Date and Closing Date accordingly and then decide the working days on which your service will be available. If you run your services throughout the year then choose the dates between the entire year range and then choose the days accordingly.');
+define('APT_ADV_SETTING', 'Appointments Advance Settings');
+define('PAYPAL_SETTING', 'Payment Setting');
+define('PAYPAL_CURR', 'Manage Currency');
+define('RP_URL', 'Redirect After Paypal Payment URL');
+define('MERCHANT_ID', '');
+define('MRC_TITLE_DES', 'Either mention the email id of your Sandbox Testing Mode for testing process or mention the email id of your real PayPal account. For e.g. myaccount@xyz.com');
+define('PYMT_MODE', 'Payment Mode');
+define('PYPL_PYMT_DES', 'Upgrade to pro version to collect online payment.');
+define('PYPL_OPT', 'Paypal');
+define('APT_HEAD', '');
+define('APT_HEAD_DES', 'Enter your text heading for Appointment Form.');
+define('APT_FIX_HEAD', 'Fix Appointment Heading');
+define('APT_FIX_DES', 'Enter your text heading for Fix Appointment.');
+define('APT_MSG_HEAD', 'Custom Message Heading');
+define('APT_MSG_DES', 'Enter your text heading for Custom Message.');
+define('SAND_OPT', 'Paypal Sandbox');
+define('CASH_OPT', 'Pay Cash Later');
+define('SET_CURR', 'Set Default Currency');
+define('SET_CURR_DES', 'Select Currency code.');
+define('SUP_CURR', 'Supported Currency List');
+define('SAVE_ALL_CHNG', 'Save All Changes');
+define('FREE_RET_TEXT', 'Your Appointment had been booked. You have to pay the amount of' . $priceshow . '. at the time of appointment.</br></br>Thanks');
+define('PAYPAL_RET_TEXT', '<p>Payment is successfully submitted and Your Appointment has been booked. Below are the details of your appointment.</p>');
+define('APT_USF', '<p>Appointment Booking Unsuccessful.</p></br></br>');
+?>

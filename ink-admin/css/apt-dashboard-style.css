@@ -1,0 +1,719 @@
+.custom-header{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+th.sttime{
+    padding-top:20px;
+    padding-left:14px;
+    width:100px;
+    display:block;
+    height:25px;
+}
+th.entime{
+    padding-left:102px;
+    text-align:center;
+}
+th.actime{
+    text-align:right;
+}
+#sradd ,#addsun,#addmon,#addtus,#addwed,#addthu,#addfri,#addsat,#chkupdate,#chkreset,#alldateadd,#chkall_aptsubmit,#chkall_sub{
+    border-radius: 3px;
+    border: #21759B solid 1px;
+    border-color: #21759B #21759B #1E6A8D;
+    background: #21759B;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2A95C5), to(#21759B));
+    background-image: -webkit-linear-gradient(top, #2A95C5, #21759B);
+    background-image: -moz-linear-gradient(top, #2A95C5, #21759B);
+    background-image: -o-linear-gradient(top, #2A95C5, #21759B);
+    background-image: linear-gradient(to bottom, #2A95C5, #21759B);
+    color: white;
+    font-weight: normal;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    line-height: 1em;
+    padding: 6px 11px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(120, 200, 230, 0.5) inset;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-left:18px;
+}
+#chkall_sub{ margin-left: -7px; }
+#chkall_aptsubmit{ float:right; margin-left:40px;}
+#addsun{
+    margin-left:2px;
+}
+#update,#update-service{
+    margin-left:15px;
+    height:24px;
+    width:24px;
+    border: #fabc09 solid 0px;
+    background: url('update.png') no-repeat; 
+    cursor: pointer;
+    text-decoration: none;
+}
+#rname,#tname{
+    margin-left:-3px;
+    width:120px;
+    height:25px;
+}
+#edit{
+    margin-left:15px;
+}
+#myselect {
+    width: 120px;
+    height: 34px;
+    overflow: hidden;
+    background: url(update.png) no-repeat right #ddd;
+    border: 1px solid #ccc;
+}
+.inkpegi,.inkpeginumber{
+    text-decoration: none;
+    font: bold 11px Arial, sans-serif;
+    text-shadow: 0px 1px white;
+    padding: 6px 9px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+    background: #f9f9f9;
+    background: -webkit-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+    background: -o-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+    background: -ms-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+    background: linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e8e8e8',GradientType=0 );
+}
+.selectpeginumber{
+    text-decoration: none;
+    font: bold 11px Arial, sans-serif;
+    text-shadow: 0px 1px white;
+    padding: 6px 9px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+    background: #f9f9f9;
+    background: -webkit-linear-gradient(top, rgb(79, 174, 241) 0%, rgb(209, 218, 224) 100%);
+    background: -moz-linear-gradient(top, rgb(79, 174, 241) 0%, rgb(209, 218, 224) 100%);
+    background: -o-linear-gradient(top, rgb(79, 174, 241) 0%, rgb(209, 218, 224) 100%);
+    background: -ms-linear-gradient(top, rgb(79, 174, 241) 0%, rgb(209, 218, 224) 100%);
+    background: linear-gradient(top, #rgb(79, 174, 241) 0%, rgb(209, 218, 224) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(79, 174, 241)', endColorstr='rgb(209, 218, 224) 100%)',GradientType=0 );
+}
+/****  Service slot css *****/
+#show_service{
+    margin-top:20px;
+    width:800px;
+}
+#price {
+    width:50px;
+}
+#ap_service{
+    width: 805px;
+}
+table-scroll{ height:400px; width:800px; overflow:auto;}
+#srname , #srprice{
+    width:125px;
+    height: 25px;
+}
+.srno{ width:60px; }
+.srname{
+    width:200px;
+}
+.sradddate, .srnaddtime{
+    width:100px;
+}
+#add img{ margin-left:30px; }
+.sraction{ width:80px; }
+.sraction label {margin-left:20px;
+}
+input#upname{
+    margin-left:0;
+    height:25px;
+    padding-left:3px;
+} 
+input#upprice{
+    margin-left:0;
+    height:25px;
+    width:60px;
+    padding-left:3px;
+}
+/****  Time slot css *****/
+#sunst{
+    height:27px;
+    width:155px;
+}
+label.ltime{
+    width:100px;
+}
+#strsun ,#endsun,#strmon ,#endmon,#endtus,#strtus,
+#endwed,#strwed,#endthu,#strthu,#endfri,#strfri,#endsat,#strsat,#opentime,#closetime{
+    width:50px;
+    height: 28px;
+    margin-top: -5px;
+    border-right:-1px;
+}
+#emon,#smon{
+    width:70px;
+    height: 28px;
+    margin-top: -5px;
+    border-right:-1px;
+}
+.booktext{
+    width:50px;
+    height: 28px;
+    margin-top: -5px;
+    border-right:-1px;
+    text-align:center;
+}
+#strselect ,#endselect,#endselectmon,#strselectmon,#endselecttus,#strselecttus,
+#endselectwed,#strselectwed,#endselectthu,#strselectthu,#endselectfri,#strselectfri,#endselectsat,#strselectsat,
+#selectopen,#selectclose{
+    margin-top:5px;
+    margin-left:-10px;
+    border-left:0px;
+}
+#time{
+    width:50px;
+    height: 28px;
+    margin-top: -5px;
+    border-right:0px;
+}
+#suns1{
+    margin-top:5px;
+    margin-left:-10px;
+    border-left:0px;
+}
+.sundelete a{
+    margin-left:20px;
+}
+.time-slot-wrap{
+    margin-top:20px;
+}
+h1.timeslot-head{
+    background:url(images/apttime.png) no-repeat;
+    height:115px;
+}
+th.time_sunday{
+    font-size:15px;
+    padding-left:15px;
+}
+p.timeslot-text{
+    font-size:14px;
+    margin-left:10px;
+}
+.avitime{
+    width:823px;
+    height:450px;
+    overflow-y:scroll;
+}
+#tool-appointment,#tool-end,#tool-start,#tool-interval,#tool-aptdate,#tool-closing{
+    background: url('images/glyphicons-halflings.png') no-repeat -95px -94px;
+    width: 16px;
+    height: 16px;
+    display:block;
+    float:right;
+}
+#tool-interval{
+    margin-right: 63px;
+}
+#tool-start{
+    margin-right: 12px;
+}
+#tool-end{
+    margin-right: -8px;
+}
+#tool-appointment{
+    margin-right: 100px;
+}
+/****  Date slot css *****/
+.date_slot{
+    width:980px;
+}
+.closing{
+    width:100px;
+}
+.aptdate{
+    width:105px;
+}
+.aptdatechk{
+    width:100px;
+}
+#aptstartdate,#aptenddate{
+    width:91px;
+    height: 28px;
+    text-align:center;
+    font-size: 12px;
+}
+#inttime,#booktime{
+    width: 70px;
+    height: 28px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#booktime{
+    margin-left:43px;
+}
+span.apt-min{
+    margin-top: -25px;
+    display: block;
+    margin-left: 82px
+}
+.aptdatesun,.aptdatemon,.aptdatetue,.aptdatethu,.aptdatefri,.aptdatesat{
+    width:60px;
+}
+.aptdatewed,.aptdatethu,.apreset{
+    width:75px;
+}
+#chkboxwed{
+    width:40px;
+    height: 28px;
+    margin-top: 2px
+}
+#chkboxsun,#chkboxmon,#chkboxtue,#chkboxthu,#chkboxfri,#chkboxsat{
+    width:30px;
+    height: 28px;
+    margin-top: 2px;
+}
+.aptupdate label{
+    margin-left:15px;
+}
+a#chkreset{
+    width:34px;
+    margin-top:18px;
+    display:block;
+    margin-left:-5px;
+}
+#apt_data_show{
+    margin-top:20px;
+    width:1100px;
+}
+.dateslot_wrap{
+    margin-top:20px;
+}
+h1.dateslothead{
+    background:url(images/aptdate.png) no-repeat;
+    height:138px;
+}
+.dateslot-text{
+    font-size:13px;
+    width:980px;
+    margin-bottom:10px;
+    margin-left:10px;
+    color: rgb(71, 71, 71);
+}
+.showdata{
+    margin-top:20px;
+}
+.showdata h3{
+    margin-left:10px;
+}
+.aptservice{
+    margin-top:20px;
+}
+h1.aptheading {
+    margin-top:10px;
+    background:url(images/aptcreate-new.png) no-repeat;
+    height:76px;
+}
+p.service-text{
+    margin-top:10px;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+.showtendata{
+    margin-top:20px;
+}
+.showtendata h3{
+    margin-left:10px;
+}
+.apt-pegi{
+    float:right;
+    margin-top:10px;
+    margin-right:20%;
+}
+
+/***** THEME OPTION SETTING ****/
+.currencysata{
+    width:595;
+    border-top: 1px solid #ebebeb;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* OptionsFramework Admin Styles */
+/*-------------------------------------------------------------------------------------------*/
+.updated, .error {
+    display:none!important
+} /* disable the admin notices */
+#of_container {
+    margin: 15px;
+    width: 785px;
+    position:relative;
+    z-index: 0
+}
+#of_container #header {
+    height: 80px;
+    background:#dfdfdf url("../../../../wp-admin/images/gray-grad.png") repeat-x left top;
+    border: 1px solid #ccc;
+    border-top-left-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+}
+#of_container #header .logo {
+    float: left;
+    margin:5px 15px;
+    margin-top:10px;
+}
+#of_container #header .logo h2 {
+    font-style:normal;
+}
+#of_container #header .icon-option {
+    float: right;
+    height: 50px;
+    width: 178px;
+    background: url(images/inkthemeslogo.png) no-repeat;
+}
+#of_container #main {
+    background-color: #f1f1f1;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+#of_container #of-nav {
+    float: left;
+    position: relative;
+    z-index: 9999;
+    width: 160px;
+}
+#of_container #of-nav li {
+    margin-bottom:0
+}
+#of_container #of-nav ul li a:link, #of-nav ul li a:visited {
+    display: block;
+    padding: 10px 10px 10px 15px;
+    font-family: Georgia, Serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #797979;
+    border-bottom: 1px solid #d8d8d8;
+}
+#of_container #of-nav ul li.current a, #of-nav ul li a:hover {
+    color: #21759b;
+    background-color: #fff;
+}
+#of_container #content {
+    float: left;
+    min-height: 550px;
+    width: 595px;
+    margin-left: -1px;
+    padding: 0 14px;
+    font-family: "Lucida Grande", Sans-serif;
+    background-color: #fff;
+    border-left: 1px solid #d8d8d8;
+}
+#of_container #content .section {
+    margin-bottom: 10px;
+}
+#of_container #content .section h3.heading {
+    font-family:;
+    margin: 10px 0 10px 0;
+    padding: 7px 0px;
+    border-bottom: 1px solid #e7e7e7;
+}
+#of_container #content .section .controls {
+    float: left;
+    width: 345px;
+    margin: 0 15px 0 0;
+}
+#of_container #content .section .explain {
+    float: left;
+    width: 225px;
+    padding: 0 10px 0 0;
+    font-size: 11px;
+    color: #999999;
+}
+#of_container #content .section-checkbox .controls {
+    width:25px
+}
+#of_container #content .section-checkbox .explain {
+    width:540px
+}
+#of_container #content .section-color .controls {
+    width:125px
+}
+#of_container #content .section-color .explain {
+    width:440px
+}
+#of_container #content .section-info h3.heading {
+    font-size: 12px;
+    font-weight: 100;
+    border: 0;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    border-top: 1px solid #FFF298;
+    margin-bottom: 0;
+    background:#EFE186;
+    padding: 10px 20px;
+}
+#of_container #content .section-info .controls {
+    margin: 0 0 20px;
+    padding: 15px 20px;
+    width: auto;
+    line-height: 1.5em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: Georgia, arial;
+    background: #FFF298;
+    border:1px solid #ECD852;
+    color:#424242;
+}
+#of_container #content .section-info .controls small {
+    font-size: 12px
+}
+#of_container #content .section-info h3.heading {
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+}
+#of_container #content .section-info .controls {
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+}
+#of_container textarea, #of_container input, #of_container select {
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    border-style:solid;
+    border-width:1px;
+}
+#of_container .controls input, #of_container .controls select, #of_container .controls textarea {
+    margin-bottom: 9px !important;
+    background-color: #f1f1f1;
+    border: 1px solid;
+    border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+    width: 340px;
+    padding: 4px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+    font-size: 12px;
+}
+#of_container .controls select {
+    padding: 0 0 0 4px;
+    width: 340px
+}
+#of_container .controls textarea {
+    width: 345px;
+}
+#of_container input[type=text] {
+    width: 340px;
+}
+#of_container input.checkbox {
+    width: 30px;
+}
+#of_container input.of-radio {
+    width: 30px;
+}
+#of_container .controls .input-text-small {
+    width: 60px;
+    margin-right:10px
+}
+#of_container .meta-two {
+    margin-right:10px
+}
+#of_container .controls .of-color {
+    float:left;
+    width: 80px;
+    margin-left:5px; /* font-size:20px; height:34px;*/
+}
+#of_container #content .section-typography .controls {
+    width:425px
+}
+#of_container #content .section-typography .explain {
+    width:140px
+}
+#of_container .controls .of-typography-size {
+    width:80px;
+    float:left
+}
+#of_container .controls .of-typography-unit {
+    width:50px;
+    float:left
+}
+#of_container .controls .of-typography-face {
+    width:100px;
+    float:left
+}
+#of_container .controls .of-typography-style {
+    width:80px;
+    float:left
+}
+#of_container .controls .of-radio-img-img {
+    border:3px solid #fff;
+    margin:0 5px 10px 0;
+    display:none;
+    cursor:pointer;
+}
+#of_container .controls .of-radio-img-selected {
+    border:3px solid #ccc
+}
+#of_container .controls .of-radio-img-img:hover {
+    opacity:.8;
+}
+#of_container .controls .of-border-width {
+    width:80px;
+    float:left
+}
+#of_container .controls .of-border-style {
+    width:120px;
+    float:left
+}
+#of_container .group {
+    padding-bottom:20px
+}
+#of_container .group h2 {
+    display:none;
+    border-bottom:3px solid #e7e7e7
+}
+#of_container .controls input:focus, #of_container select:focus, #of_container textarea:focus {
+    background:#fff;
+}
+#of_container .accept {
+    background: #DBF6BE no-repeat 10px center;
+    border: solid #9BBF65;
+    border-width: 0px 1px 1px 1px;
+    color: #060;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+#of_container .warning {
+    background: #ffeeee no-repeat 10px center;
+    ;
+    border: solid #dfbfbf;
+    border-width: 0px 1px 1px 1px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+#of_container .update_available {
+    background: #FFFEEB no-repeat 10px center;
+    border: solid #CCCCCC;
+    border-width: 0px 1px 1px 1px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+#of_container .of-save-popup {
+    position:absolute;
+    -moz-border-radius:12px;
+    background:rgba(0, 0, 0, 0.4);
+    color:#fff;
+    font-size:24px;
+    text-align:center;
+    display:none
+}
+#of_container .of-save-save {
+    background:url(images/accept.png) 20px 50% no-repeat;
+    padding:30px 30px 30px 70px
+}
+#of_container .of-save-reset {
+    background:url(images/warning.png) 20px 50% no-repeat;
+    padding:30px 30px 30px 70px
+}
+.upload_button_div {
+    margin-bottom: 10px;
+}
+.upload_button_div .button {
+    padding:4px 14px;
+}
+.upload_button_div .image_reset_button {
+    margin-left:10px
+}
+.upload-error {
+    float:left;
+    color:#666;
+    font-size:10px;
+    font-weight:bold;
+    text-decoration:none;
+    text-shadow:1px 1px 0 #FFFFFF;
+    margin: 0 10px 0 0;
+    padding:3px 10px;
+    background:#FFDFEC;
+    -moz-border-radius:4px
+}
+.reset-button {
+    float:left;
+}
+.save_bar_top {
+    background: #f3f3f3;
+    border:solid #ccc;
+    border-width:0px 1px 1px 1px;
+    padding: 10px 20px 0px 20px;
+    height: 35px;
+    text-align: right;
+    border-bottom-left-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+.hide {
+    display:none
+}
+.ajax-loading-img-top {
+    margin: 8px 4px 0;
+    float:left
+}
+.ajax-loading-img-bottom {
+}
+.of-option-image {
+    max-width:340px;
+}
+#of_container .mini .controls select, #of_container #content .section .mini .controls {
+    width: 70px;
+}
+#of_container .mini .controls input, #of_container #content .mini .controls {
+    width: 70px;
+}
+#of_container #content .mini .explain {
+    width:500px;
+}
+.of-notice {
+    background: #ffd1d1;
+    border:1px solid #DFA8A7;
+    -moz-border-radius:8px;
+    text-align: center;
+    margin-bottom: 15px
+}
+/*-------------------------------------------------------------------------------------------*/
+/* GENERAL STYLES */
+/*-------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
+    background: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+    line-height:17px;
+}

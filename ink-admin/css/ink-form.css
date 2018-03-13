@@ -1,0 +1,167 @@
+.ink-container {
+	box-shadow: 0px 1px 12px 0px #888888;
+	-webkit-box-shadow: 0px 1px 12px 0px #888888;
+	-moz-box-shadow: 0px 1px 12px 0px #888888;
+	background: #fff;
+	border-radius: 5px;
+	width:96%;
+	margin-bottom: 20px;
+	margin-left:4px;
+}
+.ink-container .inkappointment_form_top {
+	background: #000 url(../images/formheadbgnew.png) left 0 repeat-x;
+	min-height: 50px;
+	text-align: center;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+}
+.ink-container .inkappointment_form_top h2 {
+	padding: 10px;
+	font-size: 20px;
+	color: #fff;
+	border:none;
+}
+.ink-container .ink-form {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+	padding-bottom: 15px;
+}
+.ink-container .ink-form ul.inkappform {
+	margin: 0;
+	padding: 0;
+	background: none;
+	list-style: none;
+	border: none;
+	text-align: center;
+}
+.ink-container .ink-form ul.inkappform li {
+	list-style-type: none;
+	margin: 0;
+	padding: 4px 1% 7px 1%;
+	clear: both;
+	background-color: transparent;
+	position: relative;
+	-webkit-transition: background-color 350ms ease-out;
+	-moz-transition: background-color 350ms ease-out;
+	-o-transition: background-color 350ms ease-out;
+	transition: background-color 350ms ease-out;
+	background-image: none;
+	list-style: none;
+	background: none;
+	border: none;
+}
+.ink-container .ink-form ul.inkappform li:hover {
+	background: none;
+	text-decoration: none;
+    color#fff;
+	transition: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	
+}
+.ink-container ul.inkappform .ink-info h2 {
+	font-weight: normal;
+	padding: 4px 1% 7px 1%;
+	background:#000 url(../images/formheadbgnew.png) left 0 repeat-x;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.ink-container ul.inkappform input.inktext, .ink-container ul.inkappform textarea.inktext {
+	border-top: 1px solid #7c7c7c;
+	border-left: 1px solid #c3c3c3;
+	border-right: 1px solid #c3c3c3;
+	border-bottom: 1px solid #ddd;
+	background-color: rgb(255, 255, 255);
+	color: #aaaeb9;
+	border: solid 1px #cccaca;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-outline-radius: 3px;
+	outline: solid 5px #f5f3f1;
+	width:90%;
+	margin-bottom: 8px;
+}
+.ink-container ul.inkappform input.inktext {
+	height: 20px;
+}
+.ink-container ul.inkappform span.fix_date {
+	color: #000;
+}
+.ink-container ul.inkappform select.inktext {
+	width:91%;
+	height: 25px;
+	color: #aaaeb9;
+	padding-left: 5px;
+	border: solid 1px #cccaca;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-outline-radius: 3px;
+	outline: solid 5px #f5f3f1;
+	margin-bottom: 8px;
+}
+.ink-container ul.inkappform input.inklarge {
+	max-width: 100%;
+	padding-left: 5px;
+}
+.ink-container ul.inkappform textarea.inklarge {
+	max-width:90%;
+	padding-left: 5px;
+}
+.ink-container ul.inkappform input.inktext:focus, ul.inkappform textarea.inktext:focus {
+	background-color: rgb(243, 243, 243);
+	border: 1px solid rgb(211, 172, 16);
+	background-color:#fff;
+}
+.ink-container ul.inkappform .captcha_error {
+	color: red;
+}
+.ink-container ul.inkappform .inkcatchapanel {
+	background-color: #f5f3f1;
+	width: 94%;
+	margin-left:3%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.ink-container ul.inkappform span.inkcaptcha_img {
+	color: #000;
+}
+.ink-container ul.inkappform input#chk_apt {
+	width: 50%;
+	height: 20px;
+}
+.ink-container ul.inkappform input#submit {
+	font-family: 'Arvo', serif;
+	border: 1px solid #616261;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0 10px 0 10px;
+	text-decoration: none;
+	display: inline-block;
+	color: #FFFFFF;
+	background-color: #7d7e7d;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#0e0e0e));
+	background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+	background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+	background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+	background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+	background-image: linear-gradient(to bottom, #7d7e7d, #0e0e0e);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#7d7e7d, endColorstr=#0e0e0e);
+	height: 35px;
+	width:94%;
+	font-size: 14px;
+}
+.ink-container ul.inkappform input#submit:hover {
+	background-color: #646464;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#646464), to(#282828));
+	background-image: -webkit-linear-gradient(top, #646464, #282828);
+	background-image: -moz-linear-gradient(top, #646464, #282828);
+	background-image: -ms-linear-gradient(top, #646464, #282828);
+	background-image: -o-linear-gradient(top, #646464, #282828);
+	background-image: linear-gradient(to bottom, #646464, #282828);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#646464, endColorstr=#282828);
+}
